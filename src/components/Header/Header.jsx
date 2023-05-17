@@ -21,11 +21,11 @@ const Header = () => {
         </Typography>
        { /* <Autocomplete>*/ }
             <div className={classes.search}> 
-                <div className={classes.searchIcon}>
-                    <SearchIcon />
-                </div>
+                 <SearchIcon />
                 <InputBase classes={{ root: classes.inputRoot, input: classes.inputInput}}/>
-            </div>
+                   
+                </div>
+        
         {/*</Autocomplete>*/} 
         </Box>
         </Toolbar>
